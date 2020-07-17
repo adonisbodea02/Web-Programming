@@ -1,0 +1,18 @@
+.wild-div {
+	position: absolute;
+	top: 0;
+	left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255);
+    transition: all 5s ease-in-out;
+}
+    
+
+.wild-div:hover {
+	top: 100%;
+	left: 100%;
+    background-color: rgb(255, 0, 0);
+    transform: translate(-100%, -100%);
+}

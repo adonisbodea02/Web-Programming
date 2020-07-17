@@ -1,0 +1,12 @@
+CSS (Cascading Style Sheets)
+
+1.style -> attribute : <a style = "...">
+2.style -> tag <style>
+	       </style>
+3 .css file -> <link> -> best
+
+SELECTOR {
+	PROPERTY: VALUE;
+	PROPERTY: VALUE;
+}
+

@@ -1,0 +1,41 @@
+#rcorners1 {
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0.2), rgba(0,255,0,0.8));
+    padding: 20px; 
+    width: 600px;
+    height: 150px;
+    text-align: justify;
+  }
+
+#polimorf{
+    animation-duration: 20s;
+    animation-name: morph;
+    width: 150px;
+    height: 150px;
+    background: blue;
+}
+
+@keyframes morph {
+    0% {
+        width: 150px;
+        height: 150px;
+        background: blue;
+    }
+    33% {
+        background-color: red;
+        height: 50px;
+        width: 250px;
+        border-radius: 50%;
+    }
+    66% {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: yellow;
+    }
+    100% {
+        width: 150px;
+        height: 150px;
+        background: black;
+    }
+  }
